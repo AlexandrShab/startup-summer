@@ -1,0 +1,63 @@
+.nav{
+    background-color: #FFFFFF;
+    
+}
+.navbar{
+    display:flex;
+    margin-left: 10%;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+}
+.logo{
+  
+    display: flex;
+    padding: 20px;
+}
+.img{
+    width: 30px;
+    height: 30px;
+
+}
+.brand {
+    margin-left: 12px;
+    width: 99px;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* Black */
+
+    color: #232134;
+}
+.links{
+    margin-left: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.activePage{
+    cursor: pointer;
+    color: #5E96FC;
+}
+
+.linkPage{
+    color: #232134;
+    cursor: pointer;
+}
+
+
