@@ -1,0 +1,33 @@
+.filters{
+    display:flex;
+    flex-direction: column;
+    width: 315px;
+    height: 360px;
+    margin: 0 20px 30px 20px;
+    background: #FFFFFF;
+    /* Grey 200 */
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid #EAEBED;
+    border-radius: 12px;
+
+}
+.block__name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #232134;
+    margin-bottom:32px;
+}
+
+.input label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232134;
+    margin-bottom:8px;
+}
+.btn {
+    margin-top: 20px;
+}

@@ -1,0 +1,9 @@
+.findbar{
+    max-width: 700px;
+    min-width: 315px;
+    margin: 0 10px;
+}
+
+.btn{
+    right:30px;
+}

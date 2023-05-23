@@ -1,0 +1,25 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    width: 100%;
+    gap: 8px;
+}
+.pagination li{
+    background-color: #FFFFFF;
+    /* Grey 200 */
+
+    border: 1px solid #EAEBED;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pagination li[class=selected]{
+    background-color: #5E96FC;
+    color: white;
+}
